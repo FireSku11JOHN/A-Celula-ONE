@@ -6,7 +6,7 @@ const scene = new THREE.Scene();
 scene.fog = new THREE.FogExp2(0xd18747, 0.018); // névoa suave e contínua
 
 const camera = new THREE.PerspectiveCamera(80, window.innerWidth / window.innerHeight, 0.1, 1000);
-camera.position.set(-100, -10, -50);
+camera.position.set(-100, 10, -50);
 camera.lookAt(0, 0, 0);
 
 // === Renderer ===
