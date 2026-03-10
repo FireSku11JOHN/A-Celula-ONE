@@ -16,13 +16,13 @@ renderer.shadowMap.enabled = true;
 document.querySelector(".scene-container").appendChild(renderer.domElement);
 
 // === Controles de câmera ===
-// const controls = new OrbitControls(camera, renderer.domElement);
-// controls.enableDamping = true; // movimento suave
-// controls.dampingFactor = 0.05;
-// controls.enablePan = false; // desativa arrastar lateral
-// controls.minDistance = 5;   // distância mínima de zoom
-// controls.maxDistance = 170;  // distância máxima de zoom
-// controls.maxPolarAngle = Math.PI / 2.1; // limita rotação pra não virar de cabeça pra baixo
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true; // movimento suave
+controls.dampingFactor = 0.05;
+controls.enablePan = false; // desativa arrastar lateral
+controls.minDistance = 5;   // distância mínima de zoom
+controls.maxDistance = 170;  // distância máxima de zoom
+controls.maxPolarAngle = Math.PI / 2.1; // limita rotação pra não virar de cabeça pra baixo
 
 
 // === Luzes ===
@@ -79,7 +79,7 @@ dune.receiveShadow = true;
 scene.add(dune);
 
 // === Poeira principal ===
-const dustCount = 10000;
+const dustCount = 5000;
 const dustGeometry = new THREE.BufferGeometry();
 const dustPositions = new Float32Array(dustCount * 3);
 
