@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+// import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 
 // === Cena e câmera ===
 const scene = new THREE.Scene();
@@ -16,13 +16,13 @@ renderer.shadowMap.enabled = true;
 document.querySelector(".scene-container").appendChild(renderer.domElement);
 
 // === Controles de câmera ===
-const controls = new OrbitControls(camera, renderer.domElement);
-controls.enableDamping = true; // movimento suave
-controls.dampingFactor = 0.05;
-controls.enablePan = false; // desativa arrastar lateral
-controls.minDistance = 5;   // distância mínima de zoom
-controls.maxDistance = 170;  // distância máxima de zoom
-controls.maxPolarAngle = Math.PI / 2.1; // limita rotação pra não virar de cabeça pra baixo
+// const controls = new OrbitControls(camera, renderer.domElement);
+// controls.enableDamping = true; // movimento suave
+// controls.dampingFactor = 0.05;
+// controls.enablePan = false; // desativa arrastar lateral
+// controls.minDistance = 5;   // distância mínima de zoom
+// controls.maxDistance = 170;  // distância máxima de zoom
+// controls.maxPolarAngle = Math.PI / 2.1; // limita rotação pra não virar de cabeça pra baixo
 
 
 // === Luzes ===
