@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+    --breakpoint-mobile-sm: 426px;
+}
