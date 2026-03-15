@@ -10,8 +10,8 @@ export const About = () => {
                 className="absolute left-0 top-14 z-0"
             />
             <div className="relative z-10 px-4 py-30 max-w-3xl mx-auto ">
-                <h2 className="AROneSans-H2  text-white mb-6">Sobre nós</h2>
-                <p className="Baloo2-AboutParagraph text-lg opacity-90 leading-relaxed">
+                <h2 className="AROneSans-H2  text-white mb-6 max-md:text-[34px]">Sobre nós</h2>
+                <p className="Baloo2-AboutParagraph text-[18px] leading-relaxed max-md:text-4">
                     Somos uma célula apaixonada por viver a unidade em Cristo. Acreditamos que juntos somos mais fortes, e que a verdadeira transformação acontece quando caminhamos lado a lado, compartilhando a jornada de fé.
                 </p>
             </div>

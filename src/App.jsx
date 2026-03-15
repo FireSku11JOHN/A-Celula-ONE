@@ -3,6 +3,7 @@ import { About } from './components/about'
 import { Container } from './components/container'
 import { Header } from './components/header'
 import { HeroSection } from './components/heroSection'
+import { Carousel } from './components/teste'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <HeroSection/>
       </Container>
       <About/>
+      <Carousel/>
     </div>
   )
 }
