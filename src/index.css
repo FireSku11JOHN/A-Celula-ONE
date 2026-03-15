@@ -3,6 +3,7 @@
 
 @theme {
 
+    --color-secondary: #D9B281;
 
     /* Fontes */
     --ArOneSans: "AR One Sans", sans-serif;
@@ -23,3 +24,18 @@
     /* font-weight: 600; */
     letter-spacing: 1px;
 }
+
+.Baloo2-AboutParagraph {
+    font-family: "Baloo 2", sans-serif;
+    line-height: 155%;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.AROneSans-H2 {
+    font-family: "AR One Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
