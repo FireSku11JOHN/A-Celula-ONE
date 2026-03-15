@@ -3,7 +3,6 @@ import { gsap } from "gsap";
 
 export function useAnimationHeroSection(logoRef, paragraphRef) {
     useLayoutEffect(() => {
-        // Verificação de segurança: só inicia se os elementos existirem
         if (!logoRef.current || !paragraphRef.current) return;
 
         let ctx = gsap.context(() => {
@@ -26,7 +25,6 @@ export function useAnimationHeroSection(logoRef, paragraphRef) {
 
         });
 
-        // Limpa as animações se o componente for desmontado
         return () => ctx.revert();
     }, [logoRef, paragraphRef]);
 }
