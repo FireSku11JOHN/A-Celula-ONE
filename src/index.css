@@ -12,7 +12,14 @@
     --breakpoint-mobile-sm: 426px;
 }
 
-.TitilliumWeb-HeroSection{
+.NotoSans-HeroSection{
     font-family: "Noto Sans", sans-serif;
-    font-weight: 500;
+    line-height: 155%;
+    letter-spacing: 1px;
+}
+
+.Baloo2-HeaderTitle {
+    font-family: "Baloo 2", sans-serif;
+    /* font-weight: 600; */
+    letter-spacing: 1px;
 }
