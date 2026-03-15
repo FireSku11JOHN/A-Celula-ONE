@@ -9,7 +9,7 @@ export const HeroSection = () => {
 
     return (
         <div ref={containerRef} className="flex w-full h-screen overflow-hidden">
-            <div className="absolute inset-0 left-1/2 -translate-x-1/2 flex w-full items-center justify-around max-sm:flex-col max-sm:justify-center">
+            <div className="absolute inset-0 left-1/2 -translate-x-1/2 flex w-full items-center justify-around max-sm:flex-col max-sm:justify-center max-sm:gap-4">
                 <div className="text-center">
                     <img className="w-105 max-md:w-65" src={logo} alt="Logo"/>
                 </div>

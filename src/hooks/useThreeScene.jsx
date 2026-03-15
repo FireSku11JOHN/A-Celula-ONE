@@ -20,7 +20,6 @@ export function useThreeScene(containerRef) {
         renderer.setSize(container.clientWidth, container.clientHeight);
         renderer.shadowMap.enabled = true;
         
-        // Anexa ao ref em vez de usar document.querySelector
         container.appendChild(renderer.domElement);
 
         // === Luzes ===
@@ -36,7 +35,7 @@ export function useThreeScene(containerRef) {
         const skyGeo = new THREE.SphereGeometry(700, 32, 32);
         const skyMat = new THREE.ShaderMaterial({
             uniforms: {
-                topColor: { value: new THREE.Color(0xffe6b0) },
+                topColor: { value: new THREE.Color(0xf2af22) },
                 bottomColor: { value: new THREE.Color(0xe7a45f) },
             },
             vertexShader: `
@@ -61,7 +60,7 @@ export function useThreeScene(containerRef) {
         const sky = new THREE.Mesh(skyGeo, skyMat);
         scene.add(sky);
 
-        // === Duna (Configuração original) ===
+        // === Duna ===
         const geometry = new THREE.PlaneGeometry(200, 200, 1850, 400);
         const material = new THREE.MeshStandardMaterial({
             color: '#EBA958',
