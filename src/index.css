@@ -1,5 +1,18 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400..700&family=Baloo+2:wght@400..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
 @theme {
+
+
+    /* Fontes */
+    --ArOneSans: "AR One Sans", sans-serif;
+    --font-Baloo2-HeroSection: "Baloo 2", sans-serif;
+    --font-TitilliumWeb-HeroSection: "Titillium Web", sans-serif;
+
     --breakpoint-mobile-sm: 426px;
+}
+
+.TitilliumWeb-HeroSection{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
 }
