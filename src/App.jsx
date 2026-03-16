@@ -3,7 +3,7 @@ import { About } from './components/about'
 import { Container } from './components/container'
 import { Header } from './components/header'
 import { HeroSection } from './components/heroSection'
-import { Carousel } from './components/teste'
+import { Carousel } from './components/carousel'
 
 function App() {
   return (
