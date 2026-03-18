@@ -14,6 +14,11 @@
     --breakpoint-mobile-sm: 426px;
 }
 
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
 .NotoSans-HeroSection{
     font-family: "Noto Sans", sans-serif;
     line-height: 155%;
