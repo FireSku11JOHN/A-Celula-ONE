@@ -5,6 +5,7 @@
     --color-primary: #CE7D3B;
     --color-secondary: #D9B281;
     --color-marrom: #37200E;
+    --color-bg-objectives: #EACDA9;
 
     /* Fontes */
     --ArOneSans: "AR One Sans", sans-serif;
@@ -19,7 +20,7 @@ html {
     box-sizing: border-box;
 }
 
-.NotoSans-HeroSection{
+.NotoSans-HeroSection {
     font-family: "Noto Sans", sans-serif;
     line-height: 155%;
     letter-spacing: 1px;
@@ -47,4 +48,13 @@ html {
 
 .bg-image {
     background-image: url('/src/assets/fundo-dunas-branca.svg');
+}
+
+.shadow-custom {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.gradient-secondary-to-primary{
+    background: #D9B281;
+    background: linear-gradient(90deg,rgba(217, 178, 129, 1) 0%, rgba(206, 125, 59, 1) 50%);
 }
