@@ -8,7 +8,7 @@ export const HeroSection = () => {
     const logoRef = useRef(null);
     const paragraphRef = useRef(null);
 
-    useThreeScene(containerRef);
+    // useThreeScene(containerRef);
     useAnimationHeroSection(logoRef, paragraphRef);
 
     return (
